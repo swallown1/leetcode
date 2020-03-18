@@ -18,3 +18,4 @@
 |392|[判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | [python](../../daily/392_2020-03-17.md)|Easy|
 |455|[分发饼干](https://leetcode-cn.com/problems/assign-cookies/) | [python](../../daily/455_2020-03-16.md)|Easy|
 |944|[删列造序](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/) | [python](../../daily/944_2020-03-16.md)|Easy|
+|860|[分发柠檬水](https://leetcode-cn.com/problems/lemonade-change/) | [python](../../daily/860_2020-03-18.md)|Easy|
