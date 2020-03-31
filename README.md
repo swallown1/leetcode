@@ -2,7 +2,7 @@
 
 ---
 
-![leetcode.jpeg](./images/leetcode.jpeg)
+![leetcode.jpeg](./algorithms/images/leetcode.jpeg)
 
 ## 介绍
 
@@ -13,7 +13,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 对于算法类的题目主要的分类，借用一张leetcode的图片：
 
-![leetcode-zhihu](./images/leetcode-zhihu.jpg)
+![leetcode-zhihu](./algorithms/images/leetcode-zhihu.jpg)
 
 其中算法，主要是以下几种：
 
