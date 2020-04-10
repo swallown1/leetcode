@@ -8,9 +8,9 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |120|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|[python](./daily/70_2020-04-08.md)|Easy|
-|62| Unique Paths|||
-|63| Unique Paths II|||
-|64| Minimum Path Sum|||
+|62| [不同路径](https://leetcode-cn.com/problems/unique-paths/)|[python](./daily/62_2020-04-09.md)|Medium|
+|63| [不同路径II](https://leetcode-cn.com/problems/unique-paths-ii/)|[python](./daily/63_2020-04-10.md)|Medium|
+|64| [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)|[python](./daily/64_2020-04-11.md)|Medium|
 过河卒
 
 - Sequence DP
