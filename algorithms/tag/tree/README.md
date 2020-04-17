@@ -24,15 +24,16 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|404|[左叶子之和](https://leetcode-cn.com/problems/is-subsequence/) | [python](../../daily/404_2020-04-14.md)|Easy|
-|437
-|572
-|501
-|530
-|538
-|606
-|653
-|563
+|404|[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves) | [python](./daily/404_2020-04-14.md)|Easy|
+|437|[左叶子之和](https://leetcode-cn.com/problems/is-subsequence/) | [python](./daily/437_2020-04-14.md)|Easy|
+|572|[另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/) | [python](./daily/572_2020-04-14.md)|Easy|
+|501|[左叶子之和](https://leetcode-cn.com/problems/is-subsequence/) | [python](./daily/501_2020-04-14.md)|Easy|
+|530|[左叶子之和](https://leetcode-cn.com/problems/is-subsequence/) | [python](./daily/530_2020-04-14.md)|Easy|
+|538|[把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | [python](./daily/538_2020-04-15.md)|Easy|
+|606|[根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/) | [python](./daily/606_2020-04-16.md)|Easy|
+|653|[两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/submissions/)| [python](./daily/653_2020-04-17.md)|Easy|
+|563|[二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt/)| [python](./daily/563_2020-04-18.md)|Easy|
+
 |617
 |637
 |669
