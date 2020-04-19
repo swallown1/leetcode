@@ -38,7 +38,7 @@
 |669|[修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/)| [python](./daily/669_2020-04-19.md)|Easy|
 |671|[二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)| [python](./daily/671_2020-04-19.md)|Easy|
 |559|[N叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/comments/)|[python](./daily/559_2020-04-20.md)|Easy|
-|589
+|589|[N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)|[python](./daily/589_2020-04-20.md)|Easy|
 |590
 |700
 |783
