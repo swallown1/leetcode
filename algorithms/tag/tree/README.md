@@ -33,12 +33,11 @@
 |606|[根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/) | [python](./daily/606_2020-04-16.md)|Easy|
 |653|[两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/submissions/)| [python](./daily/653_2020-04-17.md)|Easy|
 |563|[二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt/)| [python](./daily/563_2020-04-18.md)|Easy|
-
-|617
-|637
-|669
-|671
-|559
+|617|[合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/)| [python](./daily/617_2020-04-18.md)|Easy|
+|637|[二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)| [python](./daily/637_2020-04-19.md)|Easy|
+|669|[修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/)| [python](./daily/669_2020-04-19.md)|Easy|
+|671|[二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)| [python](./daily/671_2020-04-19.md)|Easy|
+|559|[N叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/comments/)|[python](./daily/559_2020-04-20.md)|Easy|
 |589
 |590
 |700
