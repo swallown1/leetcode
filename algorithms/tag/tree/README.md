@@ -39,9 +39,9 @@
 |671|[二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)| [python](./daily/671_2020-04-19.md)|Easy|
 |559|[N叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/comments/)|[python](./daily/559_2020-04-20.md)|Easy|
 |589|[N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)|[python](./daily/589_2020-04-20.md)|Easy|
-|590
-|700
-|783
+|590|[N叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)| |Easy|
+|700|[二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)|[python](./daily/700_2020-04-21.md)|Easy|
+|783|[二叉搜索树结点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/)|[python](./daily/783_2020-04-21.md)|Easy|
 |872
 |897
 |938
@@ -51,22 +51,31 @@
 
 
 
-**Easy**
+**Medium**
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|392|[判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | [python](../../daily/392_2020-03-17.md)|Easy|
 |285	二叉搜索树中的顺序后继	
+
 |298	二叉树最长连续序列	
+
 |333	最大 BST 子树	
+
 |337	打家劫舍 III	
+
 |366	寻找二叉树的叶子节点	
+
 |510	二叉搜索树中的中序后继 II	
+
 |449	序列化和反序列化二叉搜索树	
+
 |450	删除二叉搜索树中的节点	
-|515	在每个树行中找最大值	
-|508	出现次数最多的子树元素和
-|652	寻找重复的子树	
+
+|515	在每个树行中找最大值|[在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)|[python](./daily/515_2020-04-22.md)|Easy|
+	
+
+|508|[出现次数最多的子树元素和](https://leetcode-cn.com/problems/most-frequent-subtree-sum/)|[python](./daily/508_2020-04-22.md)|Medium|
+|652|[寻找重复的子树](https://leetcode-cn.com/problems/find-duplicate-subtrees/)|[python](./daily/652_2020-04-23.md)|Medium|
 |513	找树左下角的值	
 |549	二叉树中最长的连续序列	
 |536	从字符串生成二叉树	
