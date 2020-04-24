@@ -77,7 +77,7 @@
 |508|[出现次数最多的子树元素和](https://leetcode-cn.com/problems/most-frequent-subtree-sum/)|[python](./daily/508_2020-04-22.md)|Medium|
 |652|[寻找重复的子树](https://leetcode-cn.com/problems/find-duplicate-subtrees/)|[python](./daily/652_2020-04-23.md)|Medium|
 |513|[找树左下角的值	](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)|[python](./daily/513_2020-04-24.md)|Medium|
-|549|
+|549|[二叉树中最长的连续序列](vip的题)|[python](./daily/549_2020-04-24.md)|Medium|
 |536|从字符串生成二叉树
 |545|二叉树的边界	
 |666|路径和 IV	
