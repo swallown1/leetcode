@@ -55,15 +55,16 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|285	二叉搜索树中的顺序后继	
-|298	二叉树最长连续序列
-|333	最大 BST 子树	
-|337	打家劫舍 III	
-|366	寻找二叉树的叶子节点	
-|510	二叉搜索树中的中序后继 II	
-|449	序列化和反序列化二叉搜索树	
-|450	删除二叉搜索树中的节点	
-|515	在每个树行中找最大值|[在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)|[python](./daily/515_2020-04-22.md)|Easy|
+|814|[二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/)|[python](./daily/814_2020-04-25.md)|Easy|
+|285二叉搜索树中的顺序后继	
+|298二叉树最长连续序列
+|333最大 BST 子树	
+|337打家劫舍 III	
+|366寻找二叉树的叶子节点	
+|510二叉搜索树中的中序后继 II	
+|449序列化和反序列化二叉搜索树	
+|450删除二叉搜索树中的节点	
+|515在每个树行中找最大值|[在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)|[python](./daily/515_2020-04-22.md)|Easy|
 |508|[出现次数最多的子树元素和](https://leetcode-cn.com/problems/most-frequent-subtree-sum/)|[python](./daily/508_2020-04-22.md)|Medium|
 |652|[寻找重复的子树](https://leetcode-cn.com/problems/find-duplicate-subtrees/)|[python](./daily/652_2020-04-23.md)|Medium|
 |513|[找树左下角的值	](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)|[python](./daily/513_2020-04-24.md)|Medium|
@@ -73,7 +74,6 @@
 |666|路径和 IV	
 |623|[在二叉树中增加一行](https://leetcode-cn.com/problems/add-one-row-to-tree/)|[python](./daily/623_2020-04-24.md)|Medium|
 |622|[二叉树最大宽度](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/)|[python](./daily/622_2020-04-25.md)|Medium|
-
 |582|杀死进程	(vip的题)
 |655|输出二叉树	
 |654|[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)|[python](./daily/654_2020-04-25.md)|Medium|
