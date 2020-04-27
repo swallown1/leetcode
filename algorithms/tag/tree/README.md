@@ -55,8 +55,8 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|814|[二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/)|[python](./daily/814_2020-04-25****.md)|Easy|
-|701|[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)|[python](./daily/814_2020-04-25****.md)|Easy|
+|814|[二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/)|[python](./daily/814_2020-04-25.md)|Medium|
+|701|[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)|[python](./daily/701_2020-04-26.md)|Medium|
 |285二叉搜索树中的顺序后继	
 |298二叉树最长连续序列
 |333最大 BST 子树	
