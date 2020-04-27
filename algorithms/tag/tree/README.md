@@ -55,7 +55,8 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|814|[二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/)|[python](./daily/814_2020-04-25.md)|Easy|
+|814|[二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/)|[python](./daily/814_2020-04-25****.md)|Easy|
+|701|[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)|[python](./daily/814_2020-04-25****.md)|Easy|
 |285二叉搜索树中的顺序后继	
 |298二叉树最长连续序列
 |333最大 BST 子树	
@@ -69,11 +70,7 @@
 |652|[寻找重复的子树](https://leetcode-cn.com/problems/find-duplicate-subtrees/)|[python](./daily/652_2020-04-23.md)|Medium|
 |513|[找树左下角的值	](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)|[python](./daily/513_2020-04-24.md)|Medium|
 |549|[二叉树中最长的连续序列](vip的题)|[python](./daily/549_2020-04-24.md)|Medium|
-|536|从字符串生成二叉树(vip的题)
-|545|二叉树的边界	(vip的题)
 |666|路径和 IV	
 |623|[在二叉树中增加一行](https://leetcode-cn.com/problems/add-one-row-to-tree/)|[python](./daily/623_2020-04-24.md)|Medium|
 |622|[二叉树最大宽度](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/)|[python](./daily/622_2020-04-25.md)|Medium|
-|582|杀死进程	(vip的题)
-|655|输出二叉树	
 |654|[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)|[python](./daily/654_2020-04-25.md)|Medium|
