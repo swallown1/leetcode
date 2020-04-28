@@ -42,6 +42,7 @@
 |590|[N叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)| |Easy|
 |700|[二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)|[python](./daily/700_2020-04-21.md)|Easy|
 |783|[二叉搜索树结点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/)|[python](./daily/783_2020-04-21.md)|Easy|
+|530|[ 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)|[python](./daily/530_2020-04-27.md)|Easy|
 |872
 |897
 |938
@@ -57,6 +58,8 @@
 |---| ----- | -------- | ---------- |
 |814|[二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/)|[python](./daily/814_2020-04-25.md)|Medium|
 |701|[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)|[python](./daily/701_2020-04-26.md)|Medium|
+|889|[根据前序和后序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|[python](./daily/889_2020-04-26.md)|Medium|
+|889|[根据前序和后序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|[python](./daily/889_2020-04-26.md)|Medium|
 |285二叉搜索树中的顺序后继	
 |298二叉树最长连续序列
 |333最大 BST 子树	
