@@ -60,6 +60,8 @@
 |701|[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)|[python](./daily/701_2020-04-26.md)|Medium|
 |889|[根据前序和后序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|[python](./daily/889_2020-04-26.md)|Medium|
 |889|[根据前序和后序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|[python](./daily/889_2020-04-26.md)|Medium|
+|105|[从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[python](./daily/105_2020-04-27.md)|Medium||285二叉搜索树中的顺序后继	
+|面试题 04.05|[合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/)|[python](./daily/面试题04.05_2020-04-28.md)|Medium|
 |285二叉搜索树中的顺序后继	
 |298二叉树最长连续序列
 |333最大 BST 子树	
@@ -77,4 +79,3 @@
 |623|[在二叉树中增加一行](https://leetcode-cn.com/problems/add-one-row-to-tree/)|[python](./daily/623_2020-04-24.md)|Medium|
 |622|[二叉树最大宽度](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/)|[python](./daily/622_2020-04-25.md)|Medium|
 |654|[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)|[python](./daily/654_2020-04-25.md)|Medium|
-|105|[从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[python](./daily/105_2020-04-27.md)|Medium|
