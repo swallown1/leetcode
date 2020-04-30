@@ -64,6 +64,7 @@
 |面试题 04.05|[合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/)|[python](./daily/面试题04.05_2020-04-28.md)|Medium|
 |面试题 04.06|[后继者](https://leetcode-cn.com/problems/successor-lcci/)|[python](./daily/面试题04.06_2020-04-28.md)|Medium|
 |102|[二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)|[python](./daily/102_2020-04-29.md)|Medium|
+|1305|[两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/solution/liang-ke-er-cha-sou-suo-shu-zhong-de-suo-you-yua-3/)|[python](./daily/102_2020-04-29.md)|Medium|
 |285二叉搜索树中的顺序后继	
 |298二叉树最长连续序列
 |333最大 BST 子树	
