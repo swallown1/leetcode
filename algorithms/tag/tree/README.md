@@ -63,6 +63,7 @@
 |105|[从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[python](./daily/105_2020-04-27.md)|Medium||285二叉搜索树中的顺序后继	
 |面试题 04.05|[合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/)|[python](./daily/面试题04.05_2020-04-28.md)|Medium|
 |面试题 04.06|[后继者](https://leetcode-cn.com/problems/successor-lcci/)|[python](./daily/面试题04.06_2020-04-28.md)|Medium|
+|102|[二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)|[python](./daily/102_2020-04-29.md)|Medium|
 |285二叉搜索树中的顺序后继	
 |298二叉树最长连续序列
 |333最大 BST 子树	
