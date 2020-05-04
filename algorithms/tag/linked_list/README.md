@@ -14,7 +14,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|2|[两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [python](./daily/2_2020-05-01.md)|Easy|
+|2|[ ]( ) | [python](./daily/2_2020-05-01.md)|Easy|
  
 
 
@@ -24,4 +24,5 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |2|[两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [python](./daily/2_2020-05-01.md)|Medium|
+|147|[对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [python](./daily/147_2020-05-01.md)|Medium|
 | 
