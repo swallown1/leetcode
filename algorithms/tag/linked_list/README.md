@@ -15,6 +15,7 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |21|[ 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [python](./daily/21_2020-05-02.md)|Easy|
+|面试题02.03|[删除中间节点](https://leetcode-cn.com/problems/delete-middle-node-lcci/ ) | [python](./daily/面试题0203_2020-05-02.md)|Easy|
  
 
 
