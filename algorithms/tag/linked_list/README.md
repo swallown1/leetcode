@@ -14,7 +14,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|2|[ ]( ) | [python](./daily/2_2020-05-01.md)|Easy|
+|21|[ 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [python](./daily/21_2020-05-02.md)|Easy|
  
 
 
