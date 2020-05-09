@@ -29,6 +29,7 @@
 |147|[对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [python](./daily/147_2020-05-01.md)|Medium|
 |61|[旋转链表](https://leetcode-cn.com/problems/rotate-list/) | [python](./daily/61_2020-05-02.md)|Medium|
 |328|[奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)| [python](./daily/328_2020-05-04.md)|Medium|
+|19|[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)| [python](./daily/19_2020-05-05.md)|Medium|
 | 
 
 **Hard**
