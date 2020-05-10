@@ -18,6 +18,7 @@
 |面试题02.03|[删除中间节点](https://leetcode-cn.com/problems/delete-middle-node-lcci/ ) | [python](./daily/面试题0203_2020-05-02.md)|Easy|
 |160|[链表相交](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [python](./daily/160_2020-05-04.md)|Easy|
 |206|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [python](./daily/206_2020-05-06.md)|Easy|
+|141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)| [python](./daily/141_2020-05-06.md)|Easy|
   
 
 
