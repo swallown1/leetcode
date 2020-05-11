@@ -19,7 +19,7 @@
 |160|[链表相交](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [python](./daily/160_2020-05-04.md)|Easy|
 |206|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [python](./daily/206_2020-05-06.md)|Easy|
 |141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)| [python](./daily/141_2020-05-06.md)|Easy|
-|1290|[二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)| [python](./daily/141_2020-05-06.md)|Easy|
+|1290|[二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)| [python](./daily/141_2020-05-07.md)|Easy|
   
 
 
