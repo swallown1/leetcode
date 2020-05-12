@@ -21,6 +21,7 @@
 |350|[两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|[python](../../daily/350_2020-04-03.md)|Easy|
 |441|[排列硬币](https://leetcode-cn.com/problems/arranging-coins/)|[python](../../daily/441_2020-04-05.md)|Easy|
 |1351|[统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[python](./daily/1351_2020-05-08.md)|Easy|
+|704|[二分查找](https://leetcode-cn.com/problems/binary-search/)|[python](./daily/704_2020-05-08.md)|Easy|
 
 
 
