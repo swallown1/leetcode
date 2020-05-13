@@ -20,7 +20,8 @@
 |206|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [python](./daily/206_2020-05-06.md)|Easy|
 |141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)| [python](./daily/141_2020-05-06.md)|Easy|
 |1290|[二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)| [python](./daily/1290_2020-05-07.md)|Easy|
-  
+|83|[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)| [python](./daily/83_2020-05-09.md)|Easy|
+   
 
 
 
