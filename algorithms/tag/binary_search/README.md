@@ -37,10 +37,11 @@
 |33|[搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|[python](../../daily/33_2020-04-06.md)|Medium|
 |81|[搜索旋转排序数组II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)|[python](../../daily/81_2020-04-07.md)|Medium|
 |162|[寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)|[python](../../daily/162_2020-05-11.md)|Medium|
+|153|[寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)|[python](./daily/153_2020-05-11.md)|Medium|
  
 
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|154|[旋转排序数组的最小值](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)|[python](../../daily/81_2020-04-07.md)|Hard|
+|153|[旋转排序数组的最小值](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)|[python](./daily/153_2020-04-07.md)|Hard|
 
