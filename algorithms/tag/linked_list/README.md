@@ -31,6 +31,7 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |2|[两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [python](./daily/2_2020-05-01.md)|Medium|
+|24|[两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)| [python](./daily/24_2020-05-15.md)|Medium|
 |147|[对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [python](./daily/147_2020-05-01.md)|Medium|
 |61|[旋转链表](https://leetcode-cn.com/problems/rotate-list/) | [python](./daily/61_2020-05-02.md)|Medium|
 |328|[奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)| [python](./daily/328_2020-05-04.md)|Medium|
@@ -38,6 +39,7 @@
 |143|[重排链表](https://leetcode-cn.com/problems/reorder-list/)| [python](./daily/143_2020-05-05.md)|Medium|
 |445|[两数相加II](https://leetcode-cn.com/problems/add-two-numbers-ii/)| [python](./daily/445_2020-05-07.md)|Medium|
 |82|[删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)| [python](./daily/82_2020-05-10.md)|Medium|
+|86|[分隔链表](https://leetcode-cn.com/problems/partition-list/)| [python](./daily/86_2020-05-12.md)|Medium|
 
 
 **Hard**
