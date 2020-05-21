@@ -33,6 +33,7 @@
 |2|[两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [python](./daily/2_2020-05-01.md)|Medium|
 |24|[两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)| [python](./daily/24_2020-05-15.md)|Medium|
 |147|[对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [python](./daily/147_2020-05-01.md)|Medium|
+|148|[排序链表](https://leetcode-cn.com/problems/sort-list/) | [python](./daily/148_2020-05-16.md)|Medium|
 |61|[旋转链表](https://leetcode-cn.com/problems/rotate-list/) | [python](./daily/61_2020-05-02.md)|Medium|
 |328|[奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)| [python](./daily/328_2020-05-04.md)|Medium|
 |19|[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)| [python](./daily/19_2020-05-05.md)|Medium|
