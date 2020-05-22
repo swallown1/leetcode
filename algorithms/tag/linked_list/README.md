@@ -47,5 +47,6 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|23|[合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [python](./daily/23_2020-05-03.md)|Medium|
+|23|[合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [python](./daily/23_2020-05-03.md)|Hard|
+|25|[K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [python](./daily/25_2020-05-17.md)|Hard|
  
