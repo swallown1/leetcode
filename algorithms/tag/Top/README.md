@@ -13,6 +13,7 @@
 |---| ----- | -------- | ---------- |
 |104|[二叉树深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)| [python](./daily/104_2020-05-19.md)|Easy|
 |94|[二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/))| [python](./daily/94_2020-05-19.md)|Easy|
+|144|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/))| [python](./daily/144_2020-05-20.md)|Easy|
     
 
 
