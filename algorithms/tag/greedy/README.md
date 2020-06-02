@@ -22,3 +22,4 @@
 |1005|[K次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/) | [python](../../daily/1005_2020-03-18.md)|Easy|
 |406|[根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [python](../../daily/406_2020-03-19.md)|Easy|
 |134|[加油站](https://leetcode-cn.com/problems/gas-station/) | [python](../../daily/134_2020-03-20.md)|Easy|
+|1046|[最后一块石头重量](https://leetcode-cn.com/problems/last-stone-weight/) | [python](./daily/1046_2020-06-02.md)|Easy|
