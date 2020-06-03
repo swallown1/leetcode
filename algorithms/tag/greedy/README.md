@@ -25,3 +25,9 @@
 |1046|[最后一块石头重量](https://leetcode-cn.com/problems/last-stone-weight/) | [python](./daily/1046_2020-06-02.md)|Easy|
 |1403|[非递增顺序的最小子序列](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/)| [python](./daily/1221_2020-06-02.md)|Easy|
 |1221|[分割平衡字符串](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)| [python](./daily/1403_2020-06-02.md)|Easy|
+|1029|[两地调度](https://leetcode-cn.com/problems/two-city-scheduling/)| [python](./daily/1029_2020-06-02.md)|Easy|
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|1337|[数组大小减半](https://leetcode-cn.com/problems/reduce-array-size-to-the-half/)| [python](../../daily/1337_2020-06-03.md)|Medium|
+ 
