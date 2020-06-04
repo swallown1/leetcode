@@ -33,4 +33,5 @@
 |1247|[交换字符使得字符串相同](https://leetcode-cn.com/problems/minimum-swaps-to-make-strings-equal/)| [python](./daily/1247_2020-06-03.md)|Medium|
 |763|[划分字母区间](https://leetcode-cn.com/problems/partition-labels/)| [python](./daily/763_2020-06-04.md)|Medium|
 |1282|[用户分组](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/)| [python](./daily/1282_2020-06-04.md)|Medium|
-  
+|861|[翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix/)| [python](./daily/861_2020-06-04.md)|Medium|
+ 
