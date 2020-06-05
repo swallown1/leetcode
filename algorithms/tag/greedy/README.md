@@ -34,4 +34,5 @@
 |763|[划分字母区间](https://leetcode-cn.com/problems/partition-labels/)| [python](./daily/763_2020-06-04.md)|Medium|
 |1282|[用户分组](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/)| [python](./daily/1282_2020-06-04.md)|Medium|
 |861|[翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix/)| [python](./daily/861_2020-06-04.md)|Medium|
+|659|[分割数组为连续子序列](https://leetcode-cn.com/problems/split-array-into-consecutive-subsequences/)| [python](./daily/659_2020-06-05.md)|Medium|
  
