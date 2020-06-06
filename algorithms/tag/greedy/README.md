@@ -36,4 +36,5 @@
 |861|[翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix/)| [python](./daily/861_2020-06-04.md)|Medium|
 |659|[分割数组为连续子序列](https://leetcode-cn.com/problems/split-array-into-consecutive-subsequences/)| [python](./daily/659_2020-06-05.md)|Medium|
 |402|[移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/)| [python](./daily/402_2020-06-05.md)|Medium|
+|921|[使括号有效的最少添加](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/)| [python](./daily/921_2020-06-05.md)|Medium|
  
