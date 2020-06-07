@@ -38,4 +38,5 @@
 |402|[移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/)| [python](./daily/402_2020-06-05.md)|Medium|
 |921|[使括号有效的最少添加](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/)| [python](./daily/921_2020-06-06.md)|Medium|
 |1090|[受标签影响的最大值](https://leetcode-cn.com/problems/largest-values-from-labels/)| [python](./daily/1090_2020-06-06.md)|Medium|
+|991|[坏了的计算器](https://leetcode-cn.com/problems/broken-calculator/)| [python](./daily/991_2020-06-07.md)|Medium|
  
