@@ -25,7 +25,8 @@
 |---| ----- | -------- | ---------- |
 |98|[验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [python](./daily/98_2020-06-01.md)|Medium|
 |347|[ 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [python](./daily/347_2020-06-09.md)|Medium|
- 
+|287|[寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)  | [python](./daily/287_2020-06-10.md)|Medium|
+
 
 **Hard**
 
