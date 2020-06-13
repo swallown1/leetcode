@@ -28,6 +28,7 @@
 |287|[寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)  | [python](./daily/287_2020-06-10.md)|Medium|
 |22|[括号生成](https://leetcode-cn.com/problems/generate-parentheses/)| [python](./daily/22_2020-06-10.md)|Medium|
 |46|[全排列](https://leetcode-cn.com/problems/permutations/)| [python](./daily/46_2020-06-11.md)|Medium|
+|47|[全排列II](https://leetcode-cn.com/problems/permutations-ii/)| [python](./daily/47_2020-06-12.md)|Medium|
 
 
 **Hard**
