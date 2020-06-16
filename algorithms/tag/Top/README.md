@@ -30,6 +30,7 @@
 |46|[全排列](https://leetcode-cn.com/problems/permutations/)| [python](./daily/46_2020-06-11.md)|Medium|
 |47|[全排列II](https://leetcode-cn.com/problems/permutations-ii/)| [python](./daily/47_2020-06-12.md)|Medium|
 |78|[子集](https://leetcode-cn.com/problems/subsets/)| [python](./daily/78_2020-06-13.md)|Medium|
+|3|[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)| [python](./daily/3_2020-06-14.md)|Medium|
 
 
 **Hard**
