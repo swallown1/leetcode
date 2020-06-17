@@ -26,7 +26,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-| | | [python](./daily/98_2020-06-01.md)|Medium|
+|面试题 08.08| [有重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-ii-lcci/)| [python](./daily/面试0808_2020-06-15.md)|Medium|
  
 
 **Hard**
