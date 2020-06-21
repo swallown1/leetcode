@@ -32,6 +32,8 @@
 |面试题 08.04| [幂集](https://leetcode-cn.com/problems/power-set-lcci/)| [python](./daily/面试0804_2020-06-16.md)|Medium|
 |60|[第k个排列](https://leetcode-cn.com/problems/permutation-sequence/)| [python](./daily/60_2020-06-17.md)|Medium|
 |77|[组合](https://leetcode-cn.com/problems/combinations/)| [python](./daily/77_2020-06-16.md)|Medium|
+|39| | [python](./daily/39_2020-06-19.md)|Medium|
+|40| [组合总和II](https://leetcode-cn.com/problems/combination-sum-ii/)| [python](./daily/40_2020-06-19.md)|Medium|
  
 **Hard**
 
