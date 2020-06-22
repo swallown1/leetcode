@@ -34,7 +34,9 @@
 |77|[组合](https://leetcode-cn.com/problems/combinations/)| [python](./daily/77_2020-06-16.md)|Medium|
 |39| [组合总和](https://leetcode-cn.com/problems/combination-sum/)| [python](./daily/39_2020-06-19.md)|Medium|
 |40| [组合总和II](https://leetcode-cn.com/problems/combination-sum-ii/)| [python](./daily/40_2020-06-19.md)|Medium|
- 
+|1079| [](https://leetcode-cn.com/problems/letter-tile-possibilities/)| [python](./daily/1079_2020-06-20.md)|Medium|
+|90| [](https://leetcode-cn.com/problems/subsets-ii/)| [python](./daily/90_2020-06-20.md)|Medium|
+  
 **Hard**
 
 | # | Title | Solution | Difficulty |
