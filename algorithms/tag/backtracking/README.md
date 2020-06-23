@@ -37,7 +37,7 @@
 |1079| [活字印刷](https://leetcode-cn.com/problems/letter-tile-possibilities/)| [python](./daily/1079_2020-06-20.md)|Medium|
 |90| [子集II](https://leetcode-cn.com/problems/subsets-ii/)| [python](./daily/90_2020-06-20.md)|Medium|
 |1415|[长度为 n 的开心字符串中字典序第 k 小的字符串]( )| [python](./daily/1415_2020-06-21.md)|Medium|
-|17|[](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)| [python](./daily/17_2020-06-21.md)|Medium|
+|17|[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)| [python](./daily/17_2020-06-21.md)|Medium|
   
 **Hard**
 
