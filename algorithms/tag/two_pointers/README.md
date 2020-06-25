@@ -13,6 +13,7 @@
 |344|[反转字符串](https://leetcode-cn.com/problems/reverse-string/)| [python](./daily/344_2020-06-22.md)|Easy|
 |26|[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)| [python](./daily/26_2020-06-22.md)|Easy|
 |125|[验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)[python](./daily/125_2020-06-23.md)|Easy|
+|238|[](https://leetcode-cn.com/problems/move-zeroes/)[python](./daily/238_2020-06-23.md)|Easy|
  
 
 
