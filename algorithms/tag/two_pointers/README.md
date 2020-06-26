@@ -14,8 +14,8 @@
 |26|[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)| [python](./daily/26_2020-06-22.md)|Easy|
 |125|[验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)[python](./daily/125_2020-06-23.md)|Easy|
 |238|[移动零](https://leetcode-cn.com/problems/move-zeroes/)[python](./daily/238_2020-06-23.md)|Easy|
-|27|[移除元素](https://leetcode-cn.com/problems/remove-element/)[python](./daily/27_2020-06-24.md)|Easy|
-|234|[](https://leetcode-cn.com/problems/palindrome-linked-list/)[python](./daily/234_2020-06-24.md)|Easy|
+|27|[移除元素](https://leetcode-cn.com/problems/remove-element/)[python](./daily/27_2020-06-23.md)|Easy|
+|234|[回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)[python](./daily/234_2020-06-23.md)|Easy|
  
 
 
