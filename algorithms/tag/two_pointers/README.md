@@ -25,7 +25,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-| 面试题 17.11. 单词距离|[](https://leetcode-cn.com/problems/find-closest-lcci/) | [python](./daily/面试题17_11_2020-06-25.md)|Medium|
+| 面试题1711|[单词距离](https://leetcode-cn.com/problems/find-closest-lcci/) | [python](./daily/面试题17_11_2020-06-25.md)|Medium|
  
 **Hard**
 
