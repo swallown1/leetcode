@@ -26,6 +26,8 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 | 面试题1711|[单词距离](https://leetcode-cn.com/problems/find-closest-lcci/) | [python](./daily/面试题17_11_2020-06-25.md)|Medium|
+|3|[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)| [python](./daily/3_2020-06-26.md)|Medium|
+
  
 **Hard**
 
