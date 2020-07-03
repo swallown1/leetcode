@@ -22,8 +22,8 @@ Output: [1,2]
 
 这道题采用的就是思想3，在给定一个排序好的列表，通常采用两指针反方向遍历的方式进行解题，**对于排好序且有解的数组，双指针一定能遍历到最优解。**
 
-### [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/)
-88. Merge Sorted Array (Easy)
+###  合并两个有序数组
+88. [Merge Sorted Array (Easy)](https://leetcode.com/problems/merge-sorted-array/)
 > 题目描述
 > 给定两个有序数组，把两个数组合并为一个。
 > 输入输出样例
@@ -37,3 +37,42 @@ Output: nums1 = [1,2,2,3,5,6]
 这道题的思路采用的是用倒叙的方式，
 
 使用指针i指向m-1，j指向n-1，k指向n+m-1,这样每次只需要比较nums1[i]和nums[j]的大小，大的放在nums[k]即可。
+
+###  快慢指针
+142. [Linked List Cycle II (Medium)](https://leetcode.com/problems/linked-list-cycle-ii/)
+
+
+快慢指针的思想其实是为了寻找数组或者链表中是否存在着环，其关键的代码如下(以链表为例)：
+```
+quick,slow = head,head
+while True:
+	if not quick or not quick.next:return  #表示不存在环
+	slow = slow.next
+	quick = quick.next.next
+	if quick == slow:
+		break
+		#表示链表有环并且这是环的入口节点
+```
+给定两个指针，
+分别命名为 slow 和 fast，起始位置在链表的开头。每次 fast 前进两步，slow 前进一步。如果 fast
+可以走到尽头，那么说明没有环路；如果 fast 可以无限走下去，那么说明一定有环路，且一定存
+在一个时刻 slow 和 fast 相遇。当 slow 和 fast 第一次相遇时，我们将 fast 重新移动到链表开头，并
+让 slow 和 fast 每次都前进一步。当 slow 和 fast 第二次相遇时，相遇的节点即为环路的开始点。
+
+因此此题的解为：
+```
+class Solution:
+    def detectCycle(self, head: ListNode) -> ListNode:
+		quick,slow = head,head
+		while True:
+			if not quick or not quick.next:return  #表示不存在环
+			slow = slow.next
+			quick = quick.next.next
+			if quick == slow:
+				break  #表示链表有环并且这是环的入口节点
+		fast = head
+		while fast != slow:  # 第二次遍历寻找环的头节点
+			fast, slow = fast.next, slow.next
+		return fast
+
+```
