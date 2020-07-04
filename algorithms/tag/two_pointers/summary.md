@@ -22,6 +22,15 @@ Output: [1,2]
 
 这道题采用的就是思想3，在给定一个排序好的列表，通常采用两指针反方向遍历的方式进行解题，**对于排好序且有解的数组，双指针一定能遍历到最优解。**
 
+######  例子
+------
+1.  [633 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers)：
+	本题的思想就是采用两个指针分别从两头进行遍历，直到两指针指向同一位置，关键点在于右边的指针从 c**0.5 开始即可。
+
+
+
+
+
 ###  合并两个有序数组
 88. [Merge Sorted Array (Easy)](https://leetcode.com/problems/merge-sorted-array/)
 > 题目描述
