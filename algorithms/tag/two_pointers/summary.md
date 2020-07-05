@@ -27,6 +27,8 @@ Output: [1,2]
 1.  [633 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers)：
 	本题的思想就是采用两个指针分别从两头进行遍历，直到两指针指向同一位置，关键点在于右边的指针从 c**0.5 开始即可。
 
+2. [680 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/):
+	本题的思路依旧是两指针的思路，不过这道题的关键在于去除一个字符后验证是否回文，具体思路参考[python](./daily/680_2020-07-02.md)
 
 
 
