@@ -118,3 +118,6 @@ class Solution:
 
 ######  例子
 ------
+209.  [长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)：
+	本题的思想就是采用两个指针分别从两头进行遍历，j表示子数组开始索引，i表示子数组尾索引。每次i往后移动，当total的值大于
+	等于s时，记录子数组长度 ans  然后将j指针往后移动一个。
