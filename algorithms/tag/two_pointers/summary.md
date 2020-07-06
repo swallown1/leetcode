@@ -87,3 +87,34 @@ class Solution:
 		return fast
 
 ```
+
+###  滑动窗口
+滑动窗口指的是采用两个指针，start，end 开始不断的移动end，直到窗口内(start,end)满足题目的要求，其次在移动start，是的窗口不断减小，得到最终符合题意的结果。然后不断重复上述过程，直至start到达最末尾位置
+
+
+3  [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+
+采用start和end双指针，start为窗口的开始位置，然后移动end指针，只要s[end]不存在mask中，加入mask，移动end往后移动
+直到end不能移动，此时mask的长度为 end-start，存在res中。
+
+然后将start往后移动一位，并且将mask中的 start-1 位置字符移除。
+
+```
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        res = 0
+        mask = []
+        end = 0
+        for start in range(len(s)):
+            if start !=0:
+                mask.remove(s[start-1])
+            
+            while end < len(s) and s[end] not in mask:
+                mask.append(s[end])
+                end +=1
+            res = max(res,end-start)
+        return res
+```
+
+######  例子
+------
