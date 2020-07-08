@@ -13,11 +13,11 @@
 |344|[反转字符串](https://leetcode-cn.com/problems/reverse-string/)| [python](./daily/344_2020-06-22.md)|Easy|
 |26|[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)| [python](./daily/26_2020-06-22.md)|Easy|
 |125|[验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)[python](./daily/125_2020-06-23.md)|Easy|
+|167|[两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)[python](./daily/167_2020-06-30.md)|Easy|
 |238|[移动零](https://leetcode-cn.com/problems/move-zeroes/)[python](./daily/238_2020-06-23.md)|Easy|
 |27|[移除元素](https://leetcode-cn.com/problems/remove-element/)[python](./daily/27_2020-06-23.md)|Easy|
 |234|[回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)[python](./daily/234_2020-06-23.md)|Easy|
 |88|[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)[python](./daily/88_2020-06-25.md)|Easy|
-|167|[两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)[python](./daily/167_2020-06-30.md)|Easy|
 |633|[平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/)[python](./daily/633_2020-07-02.md)|Easy|
 |680|[验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)[python](./daily/680_2020-07-02.md)|Easy|
 //滑动窗口
