@@ -15,6 +15,7 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |35|[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [python](../../daily/35_2020-03-21.md)|Easy|
+|69|[x的平方根](https://leetcode-cn.com/problems/sqrtx/)| [python](./daily/69_2020-07-05.md)|Easy|
 |167|[两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [python](../../daily/167_2020-03-25.md)|Easy|
 |744|[需找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)|[python](../../daily/744_2020-03-30.md)|Easy|
 |349|[两数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)|[python](../../daily/349_2020-03-31.md)|Easy|
