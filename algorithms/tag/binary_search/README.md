@@ -46,6 +46,6 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |153|[旋转排序数组的最小值](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)|[python](./daily/153_2020-04-07.md)|Hard|
-
+|154|[寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[python](./daily/154_2020-07-10.md)|Hard|
  
  
