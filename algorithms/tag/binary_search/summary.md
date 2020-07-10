@@ -112,7 +112,33 @@ class Solution:
 输入: nums = [2,5,6,0,0,1,2], target = 3
 输出: false
 ```
+
 对于二分法常常是借用数组的递增序列的特点，旋转数组之后其实任然是可以运用这一特点。
 
 **对于当前的中间节点指向的值小于等于最右边的值，说明右边区间是一个有序递增序列。
-反之说明左边区间是一个有序递增序列。**
+反之说明左边区间是一个有序递增序列。** 如果目标值在有序区间内，可以对这个区间继续二分查找；反之，我们对于另一半区
+间继续二分查找。
+
+此题还要注意区间中有重复数字，如果是按照上面讲mid值和最右边的值比较，那么 出现mid的值等于 right的值时，将right-=1
+(如果mid值和最左边的值比较，则将left+=1)
+
+```
+class Solution:
+    def search(self, nums: List[int], target: int) -> bool:
+        left,right = 0,len(nums)-1
+        while left <= right:
+            mid = (left +right) // 2
+            if nums[mid] == target:return True
+            if nums[mid] < nums[right]:
+                if nums[mid] < target<=nums[right]:
+                    left = mid+1
+                else:
+                    right = mid-1
+            elif nums[mid] > nums[right]:
+                if nums[left] <= target<nums[mid]:
+                    right=mid - 1
+                else:
+                    left = mid+1
+            else:right -=1
+        return False
+```
