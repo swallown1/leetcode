@@ -149,5 +149,9 @@ class Solution:
 1.  [154 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 	本题的就是旋转数组查找最小值，相比于81题还是简单的，关键是，最小值的下标是r。因为nums[mid] < nums[r]时 r=mid，所以
 	r始终保持当前最小值下标。 具体思路参考[python](./daily/154_2020-07-10.md)
+
+2.  [153 旋转排序数组的最小值](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
+	本题的就是旋转数组查找最小值，这比154要更简单一些，不存在重复数字。关键和154一样，最后的结果在nums[r]。
+	具体思路参考[python](./daily/153_2020-04-07.md)
 	
  
