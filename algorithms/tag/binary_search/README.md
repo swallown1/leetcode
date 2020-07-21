@@ -41,6 +41,8 @@
 |153|[寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)|[python](./daily/153_2020-05-11.md)|Medium|
 |34|[在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[python](./daily/34_2020-07-06.md)|Medium|
 |540|[有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)|[python](./daily/540_2020-07-11.md)|Medium|
+
+|面试题 10.03|[搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/)|[python](./daily/面试题1003_2020-07-20.md)|Medium|
  
 
 
