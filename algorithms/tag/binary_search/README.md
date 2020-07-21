@@ -43,6 +43,7 @@
 |540|[有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)|[python](./daily/540_2020-07-11.md)|Medium|
 
 |面试题 10.03|[搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/)|[python](./daily/面试题1003_2020-07-20.md)|Medium|
+|面试题 10.09|[排序矩阵查找](https://leetcode-cn.com/problems/sorted-matrix-search-lcci/)|[python](./daily/面试题1009_2020-07-21.md)|Medium|
  
 
 
