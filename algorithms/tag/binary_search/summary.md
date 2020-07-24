@@ -35,6 +35,9 @@ Output: [1,2]
 2. [680 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/):
 	本题的思路依旧是两指针的思路，不过这道题的关键在于去除一个字符后验证是否回文，具体思路参考[python](./daily/680_2020-07-02.md)
 
+3. [找到 K 个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/):
+	本题的思路依旧是两指针的思路，通过双指针删减不符合的元素，找到最后符合题意的区间，具体思路参考[python](./daily/658_2020-07-23.md)
+
 
 
 
