@@ -33,7 +33,6 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-
 |29|[两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | [python](../../daily/29_2020-03-26.md)|Medium|
 |33|[搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|[python](../../daily/33_2020-04-06.md)|Medium|
 |81|[搜索旋转排序数组II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)|[python](../../daily/81_2020-04-07.md)|Medium|
@@ -41,8 +40,6 @@
 |153|[寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)|[python](./daily/153_2020-05-11.md)|Medium|
 |34|[在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[python](./daily/34_2020-07-06.md)|Medium|
 |540|[有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)|[python](./daily/540_2020-07-11.md)|Medium|
-|540|[有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)|[python](./daily/540_2020-07-11.md)|Medium|
-
 |面试题 10.03|[搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/)|[python](./daily/面试题1003_2020-07-20.md)|Medium|
 |面试题 10.09|[排序矩阵查找](https://leetcode-cn.com/problems/sorted-matrix-search-lcci/)|[python](./daily/面试题1009_2020-07-21.md)|Medium|
 |658|[找到 K 个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/)|[python](./daily/658_2020-07-23.md)|Medium|
