@@ -1,0 +1,115 @@
+## LeetCode分类刷题之二分法(Binary Search)
+
+二分法在面试中是常见的类型，虽然算法思想本身比较简单，但是变化的种类还是比较多的，下面具体看看有那些类别。
+
+### 二分法思想：
+
+#### 1、定义：
+		
+二分查找又名折半查找(Binary Search)，其时间复杂度是对数级别的 O(log2n)，能进行折半查找必须符合两个条件：1）线性表
+必须是顺序存储结构，2）表中元素按照关键字有序排列。
+
+#### 2、主要的思想：
+
+- 假设数据是按升序排序的，对于给定值key，从序列的中间位置k开始比较。
+- 若key小于当前位置值arr[k]，则在数列的前半段中查找,arr[low,mid-1]；
+- 若key大于当前位置值arr[k]，则在数列的后半段中继续查找arr[mid+1,high]，
+- 如果当前位置arr[k]值等于key，则查找成功；
+
+
+#### 3、常用模板：
+
+```
+	left,right = 0,len(nums)-1
+	while left <= right:
+		mid = (left+right)//2
+		if nums[mid] == target:
+			//找到目标值
+		elif nums[mid] < target:
+			//目标值在后半段，缩小范围
+		else:
+			//目标值在前半段，缩小范围
+	return -1
+```
+
+
+
+### 主要类别：
+
+**一、普通排序数组相关题目：**
+此类题型是最常规的二分法，就是在有序数组中查找某个目标值，主要的思路是通过判断中间位置的值和目标是的大小关系，来缩小
+目标值可能存在的范围，并最终确定目标值是否在数组中。
+
+如704题，给定一个有序数组查找目标值位于数组中的索引：
+
+```
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        left,right = 0,len(nums)-1
+        while left <= right:
+            mid = (left+right)//2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] < target:
+                left = mid+1
+            else:
+                right = mid-1
+        return -1
+```
+
+
+**同类型题：**
+- [704. 二分查找](https://leetcode-cn.com/problems/binary-search)
+- [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
+- [852. 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)
+- [剑指 Offer 53 - II. 0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/)
+
+**二、变形排序数组相关题目：**
+
+- [剑指 Offer 11. 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
+- [面试题 10.03. 搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/)
+- [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+- [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+- [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
+- [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) [hard]
+**一、排序矩阵相关题目：**
+
+- [74  搜索二维矩阵  ](https://leetcode-cn.com/problems/search-a-2d-matrix)
+- [240. 搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)
+- [面试题 10.09. 排序矩阵查找](https://leetcode-cn.com/problems/sorted-matrix-search-lcci/)
+- [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+- [1351. 统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)
+- [378. 有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+- [1292. 元素和小于等于阈值的正方形的最大边长](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
+- [436. 寻找右区间](https://leetcode-cn.com/problems/find-right-interval/)
+
+
+**四、实例应用相关题目：**
+
+- [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+- [658. 找到 K 个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/)
+- [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/)
+- [744. 寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)
+- [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [287. 寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)
+- [1574. 删除最短的子数组使剩余数组有序](https://leetcode-cn.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)
+
+**五、系列题：**
+1、两个数的交集：
+- [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+- [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)
+
+2、H指数
+- [275. H 指数 II](https://leetcode-cn.com/problems/h-index-ii/)
+- [274. H 指数](https://leetcode-cn.com/problems/h-index/)
+
+
+3、两数之和
+- [1. 两数之和](https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-leetcode-solution/) [非二分法问题]
+- [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
+
+4、丑数
+- [剑指 Offer 49	丑数](https://leetcode-cn.com/problems/chou-shu-lcof)
+- [263	丑数](https://leetcode-cn.com/problems/ugly-number)
+- [264	丑数 II](https://leetcode-cn.com/problems/ugly-number-ii)
+- [1201	丑数 III](https://leetcode-cn.com/problems/ugly-number-iii)
