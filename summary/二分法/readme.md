@@ -64,6 +64,7 @@ class Solution:
 - [704. 二分查找](https://leetcode-cn.com/problems/binary-search)
 
 - [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) 
+	
 	这道题的思路是找到第一个大于target的数。[【python 详解】](./daily/35_2020-11-12_搜索插入位置.md)
 
 - [剑指 Offer 53 - II. 0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) 
@@ -93,12 +94,14 @@ class Solution:
             elif numbers[mid] < numbers[right]:
                 # 这种情况表明右边是有序递增的，在[1：mid]内存在部分递增范围
             else:
-                这种情况是当数组中存在重复数字的时候，这时候需要防止numbers[right] == numbers[left] 的情况
+                # 这种情况是当数组中存在重复数字的时候，
+				# 这时候需要防止numbers[right]==numbers[left]的情况
 ```
 
 **同类型题：**
 
 - [剑指 Offer 11. 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
+	
 	这道题的思路是找出最小值，而最小值一般是最左边，为了将最小值保留在最左边，因此适合使用与right比较的方式。然后使用上面的模板即可。[【python 详解】](./daily/剑指offer11旋转数组的最小数字.md)
 
 - [852. 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/) 
