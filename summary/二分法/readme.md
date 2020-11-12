@@ -37,6 +37,7 @@
 ### 主要类别：
 
 **一、普通排序数组相关题目：**
+
 此类题型是最常规的二分法，就是在有序数组中查找某个目标值，主要的思路是通过判断中间位置的值和目标是的大小关系，来缩小
 目标值可能存在的范围，并最终确定目标值是否在数组中。
 
@@ -61,7 +62,7 @@ class Solution:
 **同类型题：**
 - [704. 二分查找](https://leetcode-cn.com/problems/binary-search)
 
-- [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) [python 详解](./daily/35_2020-11-12_搜索插入位置.md)
+- [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) [【python 详解】](./daily/35_2020-11-12_搜索插入位置.md)
 	
 	
 - [852. 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)
