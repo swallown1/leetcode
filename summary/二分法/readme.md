@@ -60,7 +60,10 @@ class Solution:
 
 **同类型题：**
 - [704. 二分查找](https://leetcode-cn.com/problems/binary-search)
-- [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
+
+- [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) [python 详解](./daily/35_2020-11-12_搜索插入位置.md)
+	
+	
 - [852. 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)
 - [剑指 Offer 53 - II. 0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/)
 
