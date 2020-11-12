@@ -62,16 +62,19 @@ class Solution:
 **同类型题：**
 - [704. 二分查找](https://leetcode-cn.com/problems/binary-search)
 
-- [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) [【python 详解】](./daily/35_2020-11-12_搜索插入位置.md)
-	这道题的思路是找到第一个大于target的数。
+- [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) 
+- 
+	这道题的思路是找到第一个大于target的数。[【python 详解】](./daily/35_2020-11-12_搜索插入位置.md)
 
-- [剑指 Offer 53 - II. 0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) [【python 详解】](./daily/剑指Offer53_2020-11-12_ 0～n-1中缺失的数字.md)
-	这道题主要依据是根据中间值是否等于索引来判断缺失数字所在的范围，根据不断缩小范围找到缺失的数字。
+- [剑指 Offer 53 - II. 0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) 
+	
+	这道题主要依据是根据中间值是否等于索引来判断缺失数字所在的范围，根据不断缩小范围找到缺失的数字。[【python 详解】](./daily/剑指Offer53_2020-11-12_0～n-1中缺失的数字.md)
 
 **二、变形排序数组相关题目：**
 
-- [852. 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/) [【python 详解】](./daily/852_2020-11-12_山脉数组的峰顶索引.md)
-	这道题的思路是根据数组呈现两个子序列来判定最大值的位置，因此关键就是确定最大值所在范围，然后缩小范围即可。
+- [852. 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/) 
+	
+	这道题的思路是根据数组呈现两个子序列来判定最大值的位置，因此关键就是确定最大值所在范围，然后缩小范围即可。 [【python 详解】](./daily/852_2020-11-12_山脉数组的峰顶索引.md)
 
 - [剑指 Offer 11. 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
 - [面试题 10.03. 搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/)
