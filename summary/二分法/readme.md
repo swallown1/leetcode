@@ -109,7 +109,15 @@ class Solution:
 	这道题的思路是根据数组呈现两个子序列来判定最大值的位置，因此关键就是确定最大值所在范围，然后缩小范围即可。 [【python 详解】](./daily/852_2020-11-12_山脉数组的峰顶索引.md)
 	
 - [面试题 10.03. 搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/)
+	
+	这道题除了区分范围，并且根据范围是否有序的特点来确定target是否在这个范围，根据这个再去缩小范围。当然还有一种情况就是
+	当其中出现重复数字的时候，我们要找到最小的位置，这时候需要判定左边的值是否等于target。   [【python 详解】](./daily/面试题1003_2020-07-20.md)
+	
 - [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+	
+	这题需要重点注意的是要和右边比较来确定范围，因为和左边比的时候，如果数组旋转，那么当中间值大于左边值的时候，这时候最小值在右边
+	但是如果数组没有旋转，那么那么当中间值大于左边值的时，这时候最小值还是在最左边的那个，因此如果这时候和左边比就会出现错误。
+
 - [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
 - [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
 - [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) [hard]
