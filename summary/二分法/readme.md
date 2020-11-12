@@ -60,10 +60,10 @@ class Solution:
 
 
 **同类型题：**
+
 - [704. 二分查找](https://leetcode-cn.com/problems/binary-search)
 
 - [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) 
-- 
 	这道题的思路是找到第一个大于target的数。[【python 详解】](./daily/35_2020-11-12_搜索插入位置.md)
 
 - [剑指 Offer 53 - II. 0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) 
@@ -72,11 +72,39 @@ class Solution:
 
 **二、变形排序数组相关题目：**
 
+此类题是基于基础题型变换而来，主要是将有序数组进行旋转得到一个拥有两个有序子序列的数组，在该数组上判断目标是所属的位置范围，然后在不断缩小范围
+知道找到目标值。
+
+对于旋转后的数组存在一个特点，即数组中存在两个有序子序列的数组，并且前子序列比后子序列大。因此在数组中间肯定存在一个最小值(当然如果
+数组旋转了数组本身长度个单位那个相当于没有旋转)。
+
+之前我们是将mid与target进行比较，但是现在没有了target如何比较？有两种方式，那就是对left比较或者对right比较。根据不同的题
+可以采用不同的思路。这两种比较方式最大的区别就是
+于是我们可以得到下面的mid与right进行比较的模板：
+
+```
+class Solution:
+    def func(self, numbers: List[int]) -> int:
+        left,right = 0 , len(numbers)-1
+        while left <= right:
+            mid  = (left+right) // 2
+            if numbers[mid] > numbers[right]: 
+				# 这种情况表明左边是有序递增的，在[mid:-1]内存在部分递增范围
+            elif numbers[mid] < numbers[right]:
+                # 这种情况表明右边是有序递增的，在[1：mid]内存在部分递增范围
+            else:
+                这种情况是当数组中存在重复数字的时候，这时候需要防止numbers[right] == numbers[left] 的情况
+```
+
+**同类型题：**
+
+- [剑指 Offer 11. 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
+	这道题的思路是找出最小值，而最小值一般是最左边，为了将最小值保留在最左边，因此适合使用与right比较的方式。然后使用上面的模板即可。[【python 详解】](./daily/剑指offer11旋转数组的最小数字.md)
+
 - [852. 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/) 
 	
 	这道题的思路是根据数组呈现两个子序列来判定最大值的位置，因此关键就是确定最大值所在范围，然后缩小范围即可。 [【python 详解】](./daily/852_2020-11-12_山脉数组的峰顶索引.md)
-
-- [剑指 Offer 11. 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
+	
 - [面试题 10.03. 搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/)
 - [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
 - [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
