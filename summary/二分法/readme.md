@@ -143,7 +143,7 @@ class Solution:
 	
 - [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
 
-	这道题和 **33.搜索旋转排序数组** 思路一样。[【python 详解】](./daily/33_2020-04-06搜索旋转排序数组.md)
+	这道题和 **33.搜索旋转排序数组** 思路一样。[【python 详解】](./daily/81_2020-11-12搜索旋转排序数组II.md)
 	
 - [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) [hard]
 
