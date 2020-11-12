@@ -98,6 +98,25 @@ class Solution:
 				# 这时候需要防止numbers[right]==numbers[left]的情况
 ```
 
+有时候有些情况并不适合与右边比较，此时与左边比较才能符合所有例子。因此还有和左边对比的模板，针对具体问题
+具体选择合适的方法。
+
+```
+class Solution:
+    def func(self, numbers: List[int]) -> int:
+        left,right = 0 , len(numbers)-1
+        while left <= right:
+            mid  = (left+right) // 2
+            if numbers[mid] > numbers[left]: 
+				# 这种情况表明左边是有序递增的，在[mid:-1]内存在部分递增范围
+            elif numbers[mid] < numbers[left]:
+                # 这种情况表明右边是有序递增的，在[1：mid]内存在部分递增范围
+            else:
+                # 这种情况是当数组中存在重复数字的时候，
+				# 这时候需要防止numbers[right]==numbers[left]的情况
+```
+
+
 **同类型题：**
 
 - [剑指 Offer 11. 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
@@ -116,10 +135,16 @@ class Solution:
 - [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
 	
 	这题需要重点注意的是要和右边比较来确定范围，因为和左边比的时候，如果数组旋转，那么当中间值大于左边值的时候，这时候最小值在右边
-	但是如果数组没有旋转，那么那么当中间值大于左边值的时，这时候最小值还是在最左边的那个，因此如果这时候和左边比就会出现错误。
+	但是如果数组没有旋转，那么那么当中间值大于左边值的时，这时候最小值还是在最左边的那个，因此如果这时候和左边比就会出现错误。[【python 详解】](./daily/153_2020-04-07寻找旋转排序数组中的最小值.md)
 
 - [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+	
+	这道题和 **面试题 10.03. 搜索旋转数组** 思路一样。[【python 详解】](./daily/33_2020-04-06搜索旋转排序数组.md)
+	
 - [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
+
+	这道题和 **33.搜索旋转排序数组** 思路一样。[【python 详解】](./daily/33_2020-04-06搜索旋转排序数组.md)
+	
 - [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) [hard]
 
 **三、排序矩阵相关题目：**
