@@ -183,11 +183,11 @@ class Solution:
 
 - [378. 有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 
-
+	通过二分查找的思想，找到中间数mid，使得二维数组中不大于mid的数的个数为k，这样得到的前第k个数。[【python 详解】](./daily/378_2020-11-13_有序矩阵中第K小的元素.md)
 
 - [1292. 元素和小于等于阈值的正方形的最大边长](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
-
+	
 
 - [436. 寻找右区间](https://leetcode-cn.com/problems/find-right-interval/)
 
@@ -211,8 +211,9 @@ class Solution:
 
 2、H指数
 
-- [275. H 指数 II](https://leetcode-cn.com/problems/h-index-ii/)
 - [274. H 指数](https://leetcode-cn.com/problems/h-index/)
+- [275. H 指数 II](https://leetcode-cn.com/problems/h-index-ii/)
+
 
 
 3、两数之和
