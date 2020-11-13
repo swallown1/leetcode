@@ -166,12 +166,29 @@ class Solution:
 **三、排序矩阵相关题目：**
 
 - [74  搜索二维矩阵  ](https://leetcode-cn.com/problems/search-a-2d-matrix)
-- [240. 搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)
-- [面试题 10.09. 排序矩阵查找](https://leetcode-cn.com/problems/sorted-matrix-search-lcci/)
-- [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+
+	形式上以二维矩阵存储，搜索上以一维数组进行二分查找[【python 详解】](./daily/74_2020-11-13_搜索二维矩阵.md)
+
+- [240.搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)
+	
+	与74题不同的是，下一行的第一个数不一定大于山一行最后一个数，因此需要行和列分别进行二分查找。[【python 详解】](./daily/240_2020-11-13_搜索二维矩阵II.md)
+	
+- [面试题 10.09.排序矩阵查找](https://leetcode-cn.com/problems/sorted-matrix-search-lcci/)
+	
+	与**240.搜索二维矩阵 II**是同一道题，[【python 详解】](./daily/240_2020-11-13_搜索二维矩阵II.md)
+
 - [1351. 统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)
+
+
+
 - [378. 有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+
+
+
 - [1292. 元素和小于等于阈值的正方形的最大边长](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
+
+
+
 - [436. 寻找右区间](https://leetcode-cn.com/problems/find-right-interval/)
 
 
@@ -205,6 +222,13 @@ class Solution:
 
 4、丑数
 - [剑指 Offer 49	丑数](https://leetcode-cn.com/problems/chou-shu-lcof)
-- [263	丑数](https://leetcode-cn.com/problems/ugly-number)
-- [264	丑数 II](https://leetcode-cn.com/problems/ugly-number-ii)
+
+	同[264_丑数 II](./daily/264_2020-11-13_丑数II.md) 
+
+- [263	丑数](https://leetcode-cn.com/problems/ugly-number) [【python 详解】](./daily/263_2020-11-13_丑数.md)
+	
+- [264	丑数 II](https://leetcode-cn.com/problems/ugly-number-ii) 
+		
+	通过利用动态规划的思想，记录2,3,5累乘的结果，将所有丑数排序[【python 详解】](./daily/264_2020-11-13_丑数II.md)
+	
 - [1201	丑数 III](https://leetcode-cn.com/problems/ugly-number-iii)
