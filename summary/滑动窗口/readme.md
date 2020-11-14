@@ -17,7 +17,7 @@
  
 **注：滑动窗口用来处理连续满足一定条件的连续区间的性质（长度等）问题的，两个指针都起始于原点，并一前一后向终点前进。**
 
-### 常用模板：
+### 常用伪代码：
 
 滑动窗口主要分为两种，一种是窗口的大小是固定的，另一种是窗口的大小是变化的，
 
@@ -29,6 +29,39 @@
 除此之外，还有不同的写法就是我们可以将left或right指针其中一个作为主要的控制变量。因为双指针法一般都只会对
 数组进行一次遍历，因此我们只需要考虑left或right其中遍历完整个链表即可，因此这里有两个不同的模板，
 针对不同的问题具体使用哪个可以自行判断。
+
+以left为主的伪代码：
+
+```
+def function(self, s: int, nums: List[int]) -> List[int]:
+	n = len(nums)
+	right,totle = -1,0
+	for left in range(n): # 以left为主遍历整个nums
+		if left !=0:
+			# 对left指针进行处理
+		while totle < s and right+1 < n:  #判断滑动窗口是否满足条件
+			# 将滑动窗口进行右移
+		if totle >= s: ans = min(ans,right-left+1)  #更新结果
+	return ans
+```
+
+以right为主的伪代码：
+
+```
+def function(self, s: int, nums: List[int]) -> List[int]:
+	ans = []
+	ns1= len(p)
+	right = ns1-1
+	while right < len(s): #控制right遍历整个nums
+	    # 考虑移动后新的元素对当前状态的影响
+	    if # 判断新的窗口是否满足条件：
+			满足条件则更新当前的结果，
+			然后去除left带来的状态影响，并将left进行右移
+	    else:
+	        不满足条件则将right进行右移
+	    right +=1
+	return ans
+```
 
 
 ### 经典题目：
