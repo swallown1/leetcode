@@ -5,21 +5,75 @@
 
 ### 滑动窗口思想：
 
-#### 1、定义：
-		
+- 滑动窗口其实是双指针构成的，一个左指针left，一个右指针right，
+	然后[left,right]表示的索引范围是一个窗口了。
+	
+- 右指针right是用来扩大窗口:当窗口内的条件没有达到要求时，我们需要不断扩大窗口的大小(right右移)
+	直到满足条件为止。
+	
+- 左指针left是用来缩小窗口:当窗口内的条件已满足题目条件或多于题目条件时（窗口溢出），
+	我们缩小窗口，也就是左指针left需要右移直到窗口条件不满足为止。这时候我们需要记录当前
+	窗口的大小，并更新以当前窗口满足条件的结果。然后再次向右移动指针，再次使之满足条件。
  
-#### 2、主要的思想：
+**注：滑动窗口用来处理连续满足一定条件的连续区间的性质（长度等）问题的，两个指针都起始于原点，并一前一后向终点前进。**
 
- 
+### 常用模板：
 
-#### 3、常用模板：
+滑动窗口主要分为两种，一种是窗口的大小是固定的，另一种是窗口的大小是变化的，
 
- 
+- 如果窗口的大小是固定的，我们只需要在一个指针即可，并且在固定大小的窗口里判定是否满足条件。
 
+- 如果窗口的大小是动态变化的，就需要两个指针来控制窗口的大小，同时，我们需要根据窗口是否满足条件
+	进行动态的变化窗口大小。
+
+除此之外，还有不同的写法就是我们可以将left或right指针其中一个作为主要的控制变量。因为双指针法一般都只会对
+数组进行一次遍历，因此我们只需要考虑left或right其中遍历完整个链表即可，因此这里有两个不同的模板，
+针对不同的问题具体使用哪个可以自行判断。
 
 
 ### 经典题目：
 
+- [3. 无重复字符的最长子串【难度：中等】](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+
+	借用Set来做窗口，遍历整个字符串中若没有遇到重复字符，right继续扩展，同时更新ans；
+	若遇到重复字符，我们需要缩小窗口，也就是left右移。[【python 详解】](./daily/3_2020-11-14_无重复字符的最长子串.md)
+
+- [209. 长度最小的子数组【难度：中等】](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
+
+	借用left，right来记录窗口的位置，遍历整个数组，若窗口内的值小于s，right继续扩展，直到大于s时候，更新ans；
+	然后left右移来缩小窗口。[【python 详解】](./daily/209_2020-11-14_长度最小的子数组.md)
+
+- [424. 替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)
+
+	使用动态窗口来寻找最长字符，通过使用字典记录窗口内字符的个数，进而判断缩小还是扩散窗口。
+	进而找到最长重复字符的长度。[【python 详解】](./daily/424_2020-11-14_替换后的最长重复字符.md)
+	
+- [159. 至多包含两个不同字符的最长子串【难度：中等】](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
+- [438. 找到字符串中所有字母异位词【难度：中等】](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
+
+	本题求的是模式串p在总串s中的所有字母异位词，所以我们所建立的窗口windows大小维持在与模式串p生成
+	的字符表pCount的大小相等即可。[【python 详解】](./daily/438_2020-11-14_找到字符串中所有字母异位词.md)
+
+- [567. 字符串的排列【难度：中等】](https://leetcode-cn.com/problems/permutation-in-string/)
+
+	本题属于**438.找到字符串中的所有字母异位词的子题**，前者是找到所有异位词并添加异位词出现的下标，
+	而本题比前者简单多了，若在总串找到模式串的异位词，直接返回ture就行了；
+	若遍历完整个总串也没找到模式串的异位词，返回false就行。[【python 详解】](./daily/567_2020-11-14_字符串的排列.md)
+	
+- [978.最长湍流子数组【难度：中等】](https://leetcode-cn.com/problems/longest-turbulent-subarray/)
+
+- [30. 串联所有单词的子串 【难度：困难】](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
+- [76. 最小覆盖子串 【难度：困难】](https://leetcode-cn.com/problems/minimum-window-substring/)
+- [239. 滑动窗口最大值【难度：困难】](https://leetcode-cn.com/problems/sliding-window-maximum/)
+- [480. 滑动窗口中位数【难度：困难】](https://leetcode-cn.com/problems/sliding-window-median/)
+- [992.K个不同整数的子数组【难度：困难】](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/)
+- [995.K连续位的最小翻转次数【难度：困难】](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/)
+
+- [727. 最小窗口子序列【会员】](https://leetcode-cn.com/problems/minimum-window-subsequence/)
+- [1040.移动石子直到连续Ⅱ](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/)
+- [1052.爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)
+- [1074.元素和为目标值的子矩阵数量](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target/)
+- [1208.尽可能使字符串相等](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)
 - Maximum Sum Subarray of Size K
 - Smallest Subarray with a given sum (easy)
 - Longest Substring with K Distinct Characters (medium)
