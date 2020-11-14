@@ -80,9 +80,8 @@ def function(self, s: int, nums: List[int]) -> List[int]:
 
 	使用动态窗口来寻找最长字符，通过使用字典记录窗口内字符的个数，进而判断缩小还是扩散窗口。
 	进而找到最长重复字符的长度。[【python 详解】](./daily/424_2020-11-14_替换后的最长重复字符.md)
-	
-- [159. 至多包含两个不同字符的最长子串【难度：中等】](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
-- [438. 找到字符串中所有字母异位词【难度：中等】](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
+
+ [438. 找到字符串中所有字母异位词【难度：中等】](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
 
 	本题求的是模式串p在总串s中的所有字母异位词，所以我们所建立的窗口windows大小维持在与模式串p生成
 	的字符表pCount的大小相等即可。[【python 详解】](./daily/438_2020-11-14_找到字符串中所有字母异位词.md)
@@ -92,7 +91,9 @@ def function(self, s: int, nums: List[int]) -> List[int]:
 	本题属于**438.找到字符串中的所有字母异位词的子题**，前者是找到所有异位词并添加异位词出现的下标，
 	而本题比前者简单多了，若在总串找到模式串的异位词，直接返回ture就行了；
 	若遍历完整个总串也没找到模式串的异位词，返回false就行。[【python 详解】](./daily/567_2020-11-14_字符串的排列.md)
-	
+		
+- [159. 至多包含两个不同字符的最长子串【难度：中等】](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
+
 - [978.最长湍流子数组【难度：中等】](https://leetcode-cn.com/problems/longest-turbulent-subarray/)
 
 - [30. 串联所有单词的子串 【难度：困难】](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
