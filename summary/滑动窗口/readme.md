@@ -96,9 +96,12 @@ def function(self, s: int, nums: List[int]) -> List[int]:
 
 	先计算不生气的人数，然后将问题转化成在全部生气的时候找出在所有窗口中最多的生气人数，最后将
 	两部分人数相加就得到最多感到满意的客户数量。[【python 详解】](./daily/1052_2020-11-16_爱生气的书店老板.md)
+
+- [978.最长湍流子数组【难度：中等】](https://leetcode-cn.com/problems/longest-turbulent-subarray/)
+	
+	当窗口到达数组末尾或者湍流不成立，我们需要重新开始扩展空间。[【python 详解】](./daily/978_2020-11-16_最长湍流子数组.md)
 		
 - [159. 至多包含两个不同字符的最长子串【难度：中等】【会员】](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
-- [978.最长湍流子数组【难度：中等】](https://leetcode-cn.com/problems/longest-turbulent-subarray/)
 - [1208.尽可能使字符串相等【难度：中等】](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)
 
 - [30. 串联所有单词的子串 【难度：困难】](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
