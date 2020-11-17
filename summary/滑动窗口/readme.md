@@ -100,10 +100,25 @@ def function(self, s: int, nums: List[int]) -> List[int]:
 - [978.最长湍流子数组【难度：中等】](https://leetcode-cn.com/problems/longest-turbulent-subarray/)
 	
 	当窗口到达数组末尾或者湍流不成立，我们需要重新开始扩展空间。[【python 详解】](./daily/978_2020-11-16_最长湍流子数组.md)
-		
-- [159. 至多包含两个不同字符的最长子串【难度：中等】【会员】](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
-- [1208.尽可能使字符串相等【难度：中等】](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)
 
+- [1208.尽可能使字符串相等【难度：中等】](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)
+		
+	常规的滑动窗口思路，这里通过判定窗口内，像个数组对应为ascii差值的绝对值总和与maxCost的大小关系
+	作为窗口是否符合的条件[【python 详解】](./daily/1208_2020-11-17_尽可能使字符串相等.md)
+
+- [1423.可获得的最大点数【难度：中等】](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
+		
+	常规的滑动窗口思路，这里需要根据题意理解出，滑动窗口的范围不再是遍历
+	整个数组，而是在[-k,k]的范围内进行窗口的滑动【python 详解】](./daily/1423_2020-11-17_可获得的最大点数.md)
+
+- [面试题 17.18 最短超串【难度：中等】](https://leetcode-cn.com/problems/shortest-supersequence-lcci/)
+- [1004 最大连续1的个数 III【难度：中等】](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)	
+- [1040 移动石子直到连续 II【难度：中等】](https://leetcode-cn.com/problems/moving-stones-until-consecutive-ii/)
+- [1438 绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+
+
+
+- [159. 至多包含两个不同字符的最长子串【难度：中等】【会员】](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
 - [30. 串联所有单词的子串 【难度：困难】](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
 - [76. 最小覆盖子串 【难度：困难】](https://leetcode-cn.com/problems/minimum-window-substring/)
 - [239. 滑动窗口最大值【难度：困难】](https://leetcode-cn.com/problems/sliding-window-maximum/)
@@ -112,7 +127,6 @@ def function(self, s: int, nums: List[int]) -> List[int]:
 - [995.K连续位的最小翻转次数【难度：困难】](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/)
 
 - [727. 最小窗口子序列【会员】](https://leetcode-cn.com/problems/minimum-window-subsequence/)
-- [1040.移动石子直到连续Ⅱ](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/)
 - [1074.元素和为目标值的子矩阵数量【难度：困难】](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target/)
 - Maximum Sum Subarray of Size K
 - Smallest Subarray with a given sum (easy)
