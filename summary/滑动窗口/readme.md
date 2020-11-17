@@ -116,11 +116,13 @@ def function(self, s: int, nums: List[int]) -> List[int]:
 - [1040 移动石子直到连续 II【难度：中等】](https://leetcode-cn.com/problems/moving-stones-until-consecutive-ii/)
 - [1438 绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
 
+- [76. 最小覆盖子串 【难度：困难】](https://leetcode-cn.com/problems/minimum-window-substring/)
 
+	这道题最重要的是使用的存储方式，通过dict的存储，对出现过的-1，对未出现的+1，
+	进而判断窗口中是否包含t。【python 详解】](./daily/76_2020-11-17_最小覆盖子串.md)
 
 - [159. 至多包含两个不同字符的最长子串【难度：中等】【会员】](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
 - [30. 串联所有单词的子串 【难度：困难】](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
-- [76. 最小覆盖子串 【难度：困难】](https://leetcode-cn.com/problems/minimum-window-substring/)
 - [239. 滑动窗口最大值【难度：困难】](https://leetcode-cn.com/problems/sliding-window-maximum/)
 - [480. 滑动窗口中位数【难度：困难】](https://leetcode-cn.com/problems/sliding-window-median/)
 - [992.K个不同整数的子数组【难度：困难】](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/)
