@@ -74,9 +74,20 @@
 	  过来，因此动态规划转移方程: dp(i,j)=dp(i−1,j)+dp(i,j−1)[【python 详解】](./daily/62_2020-12-25_不同路径.md)
 
 
+下面这三道题是属于一类问题，都是基于所在区域内的正方形的相关问题。
+
 - [221. 最大正方形【难度：中等】](https://leetcode-cn.com/problems/maximal-square/)
      本题的关键在于找到最大边长的正方形，其中关键的一个迭代关系
 	 dp[i][j] = min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1])+1[【python 详解】](./daily/221_2020-12-28_最大正方形.md)
+
+- [1277. 统计全为 1 的正方形子矩阵【难度：中等】](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)
+     本题的关键在于找到最大边长的正方形，其中关键的一个迭代关系
+	 dp[i][j] = min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1])+1[【python 详解】](./daily/1277_2020-12-28_统计全为1的正方形子矩阵.md)
+
+- [1504. 统计全 1 子矩形【难度：中等】](https://leetcode-cn.com/problems/count-submatrices-with-all-ones/)
+     本题的关键在于想到，只要连续的就是矩形，通过二维数组，记录以位置[i,j]
+	 为右下角的矩形的个数，在通过列从上往下的统计每个位置[i,j]在行列位置上
+	 能够构成的矩形个数。[【python 详解】](./daily/1504_2020-12-28_统计全1子矩形.md)
 
 
 
